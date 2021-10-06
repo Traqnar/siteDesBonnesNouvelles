@@ -21,7 +21,10 @@ body {
 	color: black;
 	background: white;
 }
-
+#navigation {
+	padding: 12px 15px;
+	background-color : aquamarine;
+}
 /* Titres */
 h1, h2, h3, h4, h5, h6 {
 	margin: 1em 0 .5em 0; /* -> 6 */
@@ -95,7 +98,9 @@ strong {
 
 
 /* --- STYLES POUR CERTAINS CONTENUS DES GABARITS --- */
-
+#contenu{
+	background-color:#8f0d0d ;
+}
 pre, code {
 	font-size: 100%;
 	font-family: "Bitstream Vera Mono", "Lucida Console", "Courier New", monospace;
